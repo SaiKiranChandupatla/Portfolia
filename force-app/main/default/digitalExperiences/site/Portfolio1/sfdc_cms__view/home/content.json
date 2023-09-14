@@ -13,16 +13,33 @@
           "children" : [ {
             "children" : [ {
               "attributes" : {
-                "backgroundColor" : "",
-                "paddingHorizontal" : "none",
-                "paddingVertical" : "none",
-                "text" : "This is our Website",
-                "textAlign" : "center",
-                "textDecoration" : "{\"bold\":true}",
-                "textDisplayInfo" : "{}"
+                "dxpStyle" : {
+                  "margin" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  },
+                  "padding" : {
+                    "bottom" : "",
+                    "left" : "",
+                    "right" : "",
+                    "top" : ""
+                  }
+                }
               },
-              "definition" : "dxp_base:textBlock",
-              "id" : "0b744e88-7b20-4ff6-a078-413284a9c1e0",
+              "definition" : "c:hero",
+              "id" : "0c73e815-34f6-4500-b6fa-65d2225afcf1",
+              "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:skillcard",
+              "id" : "8125ed4f-1027-4be6-87ac-0fa5fc9c0f44",
+              "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:aboutMe",
+              "id" : "88ce2243-7385-4801-8aea-fa316499fbf6",
               "type" : "component"
             } ],
             "id" : "80b27c8f-ee81-41de-a45d-c7e903495b9a",
