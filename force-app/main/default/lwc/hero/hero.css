@@ -1,5 +1,10 @@
+.outer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 img {
-    width: 50%;
+    width: 100%;
     border: 2px solid black;
     border-radius: 7px;
 }
@@ -36,4 +41,5 @@ button {
     .call-to-action {
         margin-top: 10%;
     }
+
 }
